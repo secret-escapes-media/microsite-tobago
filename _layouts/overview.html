@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="bg--white">
+  <div class="container">
+    <div class="width width--lg text--center">
+      <div class="space--xl"></div>
+      <h2 class="title title--md width width--md">This is the Caribbean hideaway you’ve been looking for.</h2>
+      <p class="text--xl">{{site.description}}</p>
+      <div class="space--xxxl"></div>
+    </div>
+  </div>
+</div>
+
+<div class="bg--light vpad--xxl">
+  <div class="container">
+    <div class="row row--6-6 row--gutters-lg">
+      {% assign topic-pages = site.html_pages | where: 'layout', 'topic' | sort: 'nav-order' %}
+      {% for page in topic-pages %}
+        <div class="col">
+          <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg');">
+            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+            <div class="bg-img__bg-overlay"></div>
+            <div class="bg-img__content">
+              <h2 class="title title--xxl">{{page.title}}</h2>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

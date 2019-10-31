@@ -3,7 +3,7 @@
 
   {% include page/head.html %}
 
-  <body class="no-js">
+  <body class="no-js {{page.id}}">
 
     {% include components/tracking.html %}
 
@@ -15,7 +15,9 @@
       {{ content }}
     </div>
 
-    {% include page/promo-signup.html %}
+    {% unless page.id == "offers" %}
+      {% include page/promo-all-offers.html %}
+    {% endunless %}
 
     {% include page/footer.html %}
 

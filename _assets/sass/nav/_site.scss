@@ -3,7 +3,7 @@
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$nav-color:          $grey-darker;
 
 
 // global site nav height
@@ -95,8 +95,8 @@ $nav-color:          $orange-dark;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    &.is-current      { background-color: rgba($nav-color,.6); }
+    .no-touch &:hover { background-color: rgba($nav-color,.8); }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

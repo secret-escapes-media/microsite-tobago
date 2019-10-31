@@ -1,18 +1,18 @@
 # Site settings
-title: Template
+title: Tobago
 client:
-  name: Client Name
-  link: "#client-name"
+  name: Tobago Tourism Agency
+  link: https://www.visittobago.gov.tt/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Tobago’s small size belies the weighty punch it delivers to those looking for an authentic island paradise. Covered in rainforest beauty, fringed by exquisite beaches, and offering an island saunter that is truly intoxicating, Tobago is a Caribbean idyll. Known as the laid-back neighbour to Trinidad, you’ll find enchanting outdoor adventures, exquisite diving and snorkelling, and the chilled hubbub of the rum shack hangouts. Warm welcomes and Caribbean charm by the bucket load await on Tobago.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/template" # the subpath of your site, e.g. /blog/
-img:     "/template/_assets/img"
-css:     "/template/_assets/css"
-js:      "/template/_assets/js"
+baseurl: "/tobago" # the subpath of your site, e.g. /blog/
+img:     "/tobago/_assets/img"
+css:     "/tobago/_assets/css"
+js:      "/tobago/_assets/js"
 
 
 # Build settings

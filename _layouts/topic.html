@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="width width--lg text--center text--xxxl">
+    <div class="space--xl"></div>
+    <p>{{page.intro}}</p>
+    <div class="space--xxxl"></div>
+  </div>
+</div>
+
+<div class="bg--light">
+  {% for topic in page.topics %}
+    <div class="harvey{% cycle '', ' harvey--swap' %}">
+      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{topic.id}}.jpg');"></div>
+      <div class="harvey__text">
+        <h3 class="title title--xl">{{topic.title}}</h3>
+        {% for item in topic.description %}
+          <p class="text--xl">{{item}}</p>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

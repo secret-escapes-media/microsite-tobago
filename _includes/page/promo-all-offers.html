@@ -1,0 +1,23 @@
+{% assign offer-page = site.html_pages | where: 'id', 'offers' | first %}
+<div class="vpad--xxxl bg--img bg__fixed">
+  <div class="bg__fixed-wrap">
+    <div class="bg__fixed-img" style="background-image: url('{{site.img}}/offers-bg.jpg');"></div>
+  </div>
+  <div class="container content-spacing">
+    <div class="text--center text--white">
+      <h2 class="title title--xxxl">{{offer-page.title}}</h2>
+      <p class="width width--lg text--xxxl text--normal">{{offer-page.banner}}</p>
+    </div>
+    <div class="row row--xl-6-6 row--gutters-lg vpad--lg">
+      {% include offer/variables.html %}
+      {% for offer in offers-by-price limit: 2 %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text--center">
+      <a href="{{site.baseurl}}/{{offer-page.url}}" class="btn btn--lg btn--cyan">See All Offers</a>
+    </div>
+  </div>
+</div>
