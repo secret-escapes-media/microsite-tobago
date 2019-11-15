@@ -73,16 +73,16 @@
 .banner-title {
   // custom banner headline
   font-family: $font-title-01;
-  font-size: $s14;
+  font-size: $s9;
   letter-spacing: -.055em;
   line-height: 1.15;
-  // @include bp($md){ font-size: $s7; }
-  // @include bp($xl){ font-size: $s15; }
+  @include bp($md){ font-size: $s12; }
+  @include bp($xl){ font-size: $s14; }
 }
 
 .sub-title {
   // custom banner headline
-  font-family: $font-title-02;
+  font-family: $font-core;
   font-size: $s5;
   font-weight: 600;
   text-transform: uppercase;

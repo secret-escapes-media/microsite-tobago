@@ -12,7 +12,7 @@ topics:
 
   - id: the-main-ridge-rainforest
     title: The Main Ridge Rainforest
-    description: Discover the oldest protected nature reserve in the Western Hemisphere. This thick rainforest is a wild highlight of any Tobago visit, a seemingly endless sprawl of lush tropical life. The ridge is the spine of the island; roads will get you into the heart of the thicket, from which trails invite further exploration. Mountain valley views await, with the chirping of forest life the soundtrack to your hike. Find a guide at Gilpin Trace for the best experience, leaning on their expertise to illuminate the birdlife swishing past overhead and to discover hidden-away waterfalls and viewpoints.
+    description: Discover the oldest protected nature reserve in the Western Hemisphere. A UNESCO-listed site, this thick rainforest is a wild highlight of any Tobago visit, a seemingly endless sprawl of lush tropical life. The ridge is the spine of the island; roads will get you into the heart of the thicket, from which trails invite further exploration. Mountain valley views await, with the chirping of forest life the soundtrack to your hike. Find a guide at Gilpin Trace for the best experience, leaning on their expertise to illuminate the birdlife swishing past overhead and to discover hidden-away waterfalls and viewpoints.
 
   - id: wildlife
     title: Wildlife
