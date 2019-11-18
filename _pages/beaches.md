@@ -21,7 +21,7 @@ topics:
     title: Classic Caribbean
     description:
       - Go where the trade wind blows and kick-back on the most gorgeous beaches in the Caribbean. This is the more predictable coastline, where the weather is less changeable and the waters clear. The further east you head, the wilder the beaches get.
-      - Head for Englishman’s Bay and discover a narrow strip of golden sand, with rich green forest bursting in at all corners. It’s quite a sight, best glimpsed from the lookout point at the head of the trail. A similar untamed beauty can be found at Pirate’s Bay, which rightfully is an adventure to get to. Follow a jungled trail or arrive by boat and kick-back in an untouched idyll. If you can’t get enough of the rainforest treks, Celery Bay offers a similar paradise after a wild trail through thick, forested tracks.
+      - Head for Englishman’s Bay and discover a narrow strip of golden sand, with rich green forest bursting in at all corners. It’s quite a sight, best glimpsed from the lookout point at the head of the trail. A similar untamed beauty can be found at Pirate’s Bay, which rightfully is an adventure to get to. Follow a forested trail or arrive by boat and kick-back in an untouched idyll. If you can’t get enough of the rainforest treks, Celery Bay offers a similar paradise after a wild trail through thick, forested tracks.
       - If that kind of adventure isn’t for you, because after all, you’re here to relax, then don’t miss the more accessible Mt.Irvine Bay, Stone Haven Bay and Castara Bay. You’ll find the same irresistible Caribbean waters, only a few more choice amenities; that means sitting in a beach bar with a cool drink, gazing over a truly beautiful beach scene.
 
   - id: windward-wilds
